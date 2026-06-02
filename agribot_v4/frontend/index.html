@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AgriBot — Agricultural Advisory Chatbot</title>
+  <title>AgriBot - Agricultural Advisory Chatbot</title>
   <style>
-    /* ── Reset & Base ─────────────────────────────────────── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
@@ -33,7 +32,6 @@
       padding: 16px;
     }
 
-    /* ── App Shell ────────────────────────────────────────── */
     .app {
       width: 100%;
       max-width: 820px;
@@ -47,7 +45,6 @@
       background: var(--white);
     }
 
-    /* ── Header ───────────────────────────────────────────── */
     .header {
       background: linear-gradient(90deg, var(--green-dark), var(--green-mid));
       color: var(--white);
@@ -79,7 +76,6 @@
       50%      { box-shadow: 0 0 0 7px rgba(105,240,174,0.0); }
     }
 
-    /* ── Quick Actions ────────────────────────────────────── */
     .quick-actions {
       display: flex;
       gap: 8px;
@@ -108,7 +104,6 @@
       color: var(--white);
     }
 
-    /* ── Chat Area ────────────────────────────────────────── */
     .chat-area {
       flex: 1;
       overflow-y: auto;
@@ -122,7 +117,6 @@
     .chat-area::-webkit-scrollbar { width: 5px; }
     .chat-area::-webkit-scrollbar-thumb { background: var(--green-light); border-radius: 4px; }
 
-    /* ── Messages ─────────────────────────────────────────── */
     .msg-row {
       display: flex;
       align-items: flex-end;
@@ -169,7 +163,6 @@
     .bubble strong{ font-weight: 700; }
     .bubble em    { font-style: italic; opacity: 0.85; }
 
-    /* Intent tag */
     .intent-tag {
       display: inline-block;
       font-size: 0.7rem;
@@ -184,7 +177,6 @@
     .intent-tag.crop_disease        { background:#fce4ec; color:#880e4f; }
     .intent-tag.weather_planting    { background:#e3f2fd; color:#0d47a1; }
 
-    /* ── Typing indicator ─────────────────────────────────── */
     .typing { display: flex; gap: 5px; align-items: center; padding: 8px 4px; }
     .typing span {
       width: 8px; height: 8px; border-radius: 50%;
@@ -198,7 +190,6 @@
       40%      { transform: translateY(-6px); }
     }
 
-    /* ── Input Bar ────────────────────────────────────────── */
     .input-bar {
       display: flex;
       align-items: center;
@@ -238,7 +229,6 @@
     .send-btn:active { transform: scale(0.96); }
     .send-btn:disabled { background: var(--grey); cursor: not-allowed; transform: none; }
 
-    /* ── Footer ───────────────────────────────────────────── */
     .footer {
       text-align: center;
       font-size: 0.68rem;
@@ -248,7 +238,6 @@
       flex-shrink: 0;
     }
 
-    /* ── Responsive ───────────────────────────────────────── */
     @media (max-width: 520px) {
       .bubble { max-width: 88%; font-size: 0.84rem; }
       .header-info h1 { font-size: 1rem; }
@@ -268,7 +257,6 @@
     <div class="status-dot" title="Online"></div>
   </div>
 
-  <!-- Quick action buttons -->
   <div class="quick-actions">
     <button class="qa-btn" onclick="quickSend('Recommend a crop: N=90, P=42, K=43, temp=25, humidity=80, pH=6.5, rainfall=200')">🌾 Crop Advice</button>
     <button class="qa-btn" onclick="quickSend('Which fertilizer for wheat on sandy soil, N=10, K=5, P=15, temp=32, humidity=50, moisture=40?')">🧪 Fertilizer</button>
@@ -277,10 +265,8 @@
     <button class="qa-btn" onclick="quickSend('help')">❓ Help</button>
   </div>
 
-  <!-- Chat Area -->
   <div class="chat-area" id="chat-area"></div>
 
-  <!-- Input -->
   <div class="input-bar">
     <input
       id="user-input"
@@ -293,7 +279,7 @@
     </button>
   </div>
 
-  <div class="footer">AgriBot v1.0 &nbsp;|&nbsp; NLP Course Project &nbsp;|&nbsp; Powered by BERT + FastAPI</div>
+  <div class="footer">AgriBot v1.0 &nbsp;|&nbsp; Abtahi Islam &nbsp;|&nbsp; Powered by BERT + FastAPI</div>
 </div>
 
 <script>
@@ -371,7 +357,6 @@
     if (el) el.remove();
   }
 
-  // ── Send message ─────────────────────────────────────────────
   async function sendMessage() {
     const text = input.value.trim();
     if (!text) return;
@@ -422,7 +407,6 @@
     if (e.key === "Enter" && !e.shiftKey) { e.preventDefault(); sendMessage(); }
   });
 
-  // ── Welcome message ──────────────────────────────────────────
   window.addEventListener("load", () => {
     appendMessage("bot",
       "👋 **Welcome to AgriBot!**\n\n" +
