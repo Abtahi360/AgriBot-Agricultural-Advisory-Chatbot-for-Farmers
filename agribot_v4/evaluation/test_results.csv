@@ -1,101 +1,101 @@
 text,true_intent,pred_intent,confidence,correct
-"What crop should I grow with N=90, P=42, K=43?",crop_recommendation,crop_recommendation,0.75,True
-Recommend a crop for pH 6.5 and rainfall 200mm.,crop_recommendation,weather_planting,0.75,False
-Which crop is best for sandy loam soil?,crop_recommendation,crop_recommendation,0.75,True
-Can I grow potatoes in sandy soil?,crop_recommendation,crop_recommendation,0.75,True
-What crops do well in dry areas with low rainfall?,crop_recommendation,weather_planting,0.75,False
-My field has red soil. What can I grow?,crop_recommendation,crop_recommendation,0.75,True
-Which crop is best for black cotton soil?,crop_recommendation,crop_recommendation,0.75,True
-What should I plant in the rainy season?,crop_recommendation,weather_planting,0.75,False
-What crops grow with very little water?,crop_recommendation,crop_recommendation,0.75,True
-Can maize grow in soil with pH 6.2?,crop_recommendation,crop_recommendation,0.75,True
-I have loamy soil with high potassium. Which crop?,crop_recommendation,crop_recommendation,0.75,True
-My soil has high nitrogen. What crop?,crop_recommendation,fertilizer_advice,0.75,False
-What crop should I plant after harvesting rice?,crop_recommendation,crop_recommendation,0.75,True
-Suggest drought-resistant crops for my farm.,crop_recommendation,crop_recommendation,0.75,True
-My land gets flooded sometimes. What crop is suitable?,crop_recommendation,crop_recommendation,0.75,True
-What crop gives best yield in tropical climate?,crop_recommendation,crop_recommendation,0.75,True
-I want to grow a cash crop on 2 acres. Suggest.,crop_recommendation,crop_recommendation,0.75,True
-Best crop for waterlogged clayey soil?,crop_recommendation,crop_recommendation,0.75,True
-Which crop grows well in acidic soil?,crop_recommendation,crop_recommendation,0.75,True
-Can I grow banana in hot humid climate?,crop_recommendation,crop_recommendation,0.75,True
-What vegetable grows well in hot weather?,crop_recommendation,weather_planting,0.75,False
-"Soil N=50, P=20, K=30, temp=30, humidity=70 — what to plant?",crop_recommendation,weather_planting,0.75,False
-I am from Punjab. What crop should I grow this season?,crop_recommendation,weather_planting,0.75,False
-What crop is best for Maharashtra black soil?,crop_recommendation,crop_recommendation,0.75,True
-Which crops are good for mixed farming?,crop_recommendation,crop_recommendation,0.75,True
-What fertilizer should I use for wheat on sandy soil?,fertilizer_advice,fertilizer_advice,0.75,True
-My maize has low nitrogen. Which fertilizer do you recommend?,fertilizer_advice,fertilizer_advice,0.75,True
-How much urea should I use for rice per acre?,fertilizer_advice,fertilizer_advice,0.75,True
-Which fertilizer is best for flowering plants?,fertilizer_advice,fertilizer_advice,0.75,True
-What fertilizer helps plants grow faster?,fertilizer_advice,fertilizer_advice,0.75,True
-My plants are not growing well. Should I add fertilizer?,fertilizer_advice,fertilizer_advice,0.75,True
-What fertilizer do I use for a vegetable garden?,fertilizer_advice,fertilizer_advice,0.75,True
-My crop leaves are pale yellow. Do I need nitrogen fertilizer?,fertilizer_advice,fertilizer_advice,0.75,True
-What fertilizer is good for fruit trees?,fertilizer_advice,fertilizer_advice,0.75,True
-Is DAP good for my wheat crop?,fertilizer_advice,fertilizer_advice,0.75,True
-Should I use urea or DAP for rice?,fertilizer_advice,fertilizer_advice,0.75,True
-How much fertilizer per acre for wheat?,fertilizer_advice,fertilizer_advice,0.75,True
-Should I fertilize before or after rain?,fertilizer_advice,weather_planting,0.75,False
-What is urea and when should I use it?,fertilizer_advice,fertilizer_advice,0.75,True
-My cotton crop is yellowing. Which fertilizer should I use?,fertilizer_advice,fertilizer_advice,0.75,True
-How do I improve soil fertility before planting?,fertilizer_advice,crop_recommendation,0.75,False
-Fertilizer recommendation for sugarcane in loamy soil?,fertilizer_advice,fertilizer_advice,0.75,True
-How many kg of DAP for cotton per acre?,fertilizer_advice,fertilizer_advice,0.75,True
-What fertilizer for sugarcane to increase yield?,fertilizer_advice,fertilizer_advice,0.75,True
-My soil has low potassium. What fertilizer should I add?,fertilizer_advice,fertilizer_advice,0.75,True
-What is the dose of urea for potato per acre?,fertilizer_advice,fertilizer_advice,0.75,True
-Which fertilizer is safe to use without harming the soil?,fertilizer_advice,fertilizer_advice,0.75,True
-My paddy crop looks thin. What fertilizer makes it stronger?,fertilizer_advice,fertilizer_advice,0.75,True
-What is 17-17-17 fertilizer and when to use it?,fertilizer_advice,fertilizer_advice,0.75,True
-How much MOP for rice crop?,fertilizer_advice,crop_recommendation,0.75,False
-My rice leaves are turning yellow with brown spots!,crop_disease,crop_disease,0.75,True
-Brown spots on my wheat leaves. How do I treat them?,crop_disease,crop_disease,0.75,True
-My tomato plants have black lesions on the stem.,crop_disease,crop_recommendation,0.75,False
-White powdery coating on my maize leaves. What is wrong?,crop_disease,crop_recommendation,0.75,False
-My potato plants are wilting and roots look rotten.,crop_disease,crop_disease,0.75,True
-Fungal infection spreading on my sugarcane.,crop_disease,crop_disease,0.75,True
-My mango leaves have spots and are falling off.,crop_disease,crop_disease,0.75,True
-Cotton plants show mosaic pattern on leaves.,crop_disease,crop_recommendation,0.75,False
-Leaf blight is affecting my rice.,crop_disease,crop_disease,0.75,True
-How do I control aphids on my cabbage?,crop_disease,crop_disease,0.75,True
-My wheat shows rust symptoms.,crop_disease,crop_disease,0.75,True
-Insects eating my crop leaves. How to control?,crop_disease,crop_disease,0.75,True
-My banana plants have black spots.,crop_disease,crop_disease,0.75,True
-Something eating my crops at night. What pest?,crop_disease,crop_disease,0.75,True
-White insects on bottom of my leaves.,crop_disease,crop_disease,0.75,True
-Small holes in leaves and crop is not growing.,crop_disease,crop_recommendation,0.75,False
-My rice has orange colored dust on leaves.,crop_disease,crop_recommendation,0.75,False
-There is sticky substance on my fruit tree leaves.,crop_disease,crop_recommendation,0.75,False
-Worms destroying my crop from roots.,crop_disease,crop_recommendation,0.75,False
-My tomato fruits have black rot.,crop_disease,crop_disease,0.75,True
-My sugarcane is rotting at the base.,crop_disease,crop_disease,0.75,True
-White mold on my vegetables after rain.,crop_disease,crop_disease,0.75,True
-My crop has leaf curl virus symptoms.,crop_disease,crop_recommendation,0.75,False
-Fungus spreading on my wheat field.,crop_disease,crop_recommendation,0.75,False
-My paddy has a bad smell and plants are dying.,crop_disease,crop_recommendation,0.75,False
-Is it a good time to plant maize in current weather?,weather_planting,weather_planting,0.75,True
-Temperature is 30°C and humidity is high. Can I sow rice?,weather_planting,weather_planting,0.75,True
-When is the best planting season for wheat in dry climate?,weather_planting,weather_planting,0.75,True
-Should I delay planting because of expected heavy rainfall?,weather_planting,weather_planting,0.75,True
-Is frost risk high this season?,weather_planting,weather_planting,0.75,True
-The rainy season has started. Which crops should I sow first?,weather_planting,weather_planting,0.75,True
-Is there drought risk this season?,weather_planting,weather_planting,0.75,True
-It has been very hot lately. Is it safe to plant?,weather_planting,crop_recommendation,0.75,False
-It rained heavily yesterday. Should I wait before planting?,weather_planting,weather_planting,0.75,True
-The weather has been cloudy and cold. Can I plant rice?,weather_planting,weather_planting,0.75,True
-The monsoon is late. Should I change my planting schedule?,weather_planting,weather_planting,0.75,True
-Is it too hot to plant right now?,weather_planting,weather_planting,0.75,True
-My area has not received rain in weeks. Can I still plant?,weather_planting,weather_planting,0.75,True
-The nights are getting cold. Will my seedlings survive?,weather_planting,crop_recommendation,0.75,False
-We had too much rain this month. Is planting still possible?,weather_planting,weather_planting,0.75,True
-Is this the right season to grow watermelon?,weather_planting,weather_planting,0.75,True
-When is the best time to sow maize?,weather_planting,crop_recommendation,0.75,False
-Is the humidity level good for planting paddy?,weather_planting,weather_planting,0.75,True
-"After the dry season, when should I plant rice?",weather_planting,weather_planting,0.75,True
-30°C and 75% humidity — can I grow maize?,weather_planting,weather_planting,0.75,True
-Temperature 38°C and humidity 80%. Should I plant rice?,weather_planting,weather_planting,0.75,True
-It is 12°C now. Should I plant rice?,weather_planting,crop_recommendation,0.75,False
-Good weather today. Should I start planting?,weather_planting,weather_planting,0.75,True
-What crops survive in a heatwave?,weather_planting,crop_recommendation,0.75,False
-Frost last night — should I protect my seedlings?,weather_planting,crop_disease,0.75,False
+"What crop should I grow with N=90, P=42, K=43?",crop_recommendation,crop_recommendation,0.9937,True
+Recommend a crop for pH 6.5 and rainfall 200mm.,crop_recommendation,crop_recommendation,0.9931,True
+Which crop is best for sandy loam soil?,crop_recommendation,crop_recommendation,0.9941,True
+Can I grow potatoes in sandy soil?,crop_recommendation,crop_recommendation,0.994,True
+What crops do well in dry areas with low rainfall?,crop_recommendation,crop_recommendation,0.994,True
+My field has red soil. What can I grow?,crop_recommendation,crop_recommendation,0.9938,True
+Which crop is best for black cotton soil?,crop_recommendation,crop_recommendation,0.9939,True
+What should I plant in the rainy season?,crop_recommendation,crop_recommendation,0.8642,True
+What crops grow with very little water?,crop_recommendation,crop_recommendation,0.9938,True
+Can maize grow in soil with pH 6.2?,crop_recommendation,crop_recommendation,0.9941,True
+I have loamy soil with high potassium. Which crop?,crop_recommendation,crop_recommendation,0.9939,True
+My soil has high nitrogen. What crop?,crop_recommendation,crop_recommendation,0.9931,True
+What crop should I plant after harvesting rice?,crop_recommendation,crop_recommendation,0.9934,True
+Suggest drought-resistant crops for my farm.,crop_recommendation,crop_recommendation,0.978,True
+My land gets flooded sometimes. What crop is suitable?,crop_recommendation,crop_recommendation,0.994,True
+What crop gives best yield in tropical climate?,crop_recommendation,crop_recommendation,0.993,True
+I want to grow a cash crop on 2 acres. Suggest.,crop_recommendation,crop_recommendation,0.9938,True
+Best crop for waterlogged clayey soil?,crop_recommendation,crop_recommendation,0.9928,True
+Which crop grows well in acidic soil?,crop_recommendation,crop_recommendation,0.994,True
+Can I grow banana in hot humid climate?,crop_recommendation,crop_recommendation,0.9917,True
+What vegetable grows well in hot weather?,crop_recommendation,crop_recommendation,0.994,True
+"Soil N=50, P=20, K=30, temp=30, humidity=70 — what to plant?",crop_recommendation,crop_recommendation,0.993,True
+I am from Punjab. What crop should I grow this season?,crop_recommendation,crop_recommendation,0.9941,True
+What crop is best for Maharashtra black soil?,crop_recommendation,crop_recommendation,0.9926,True
+Which crops are good for mixed farming?,crop_recommendation,crop_recommendation,0.9938,True
+What fertilizer should I use for wheat on sandy soil?,fertilizer_advice,fertilizer_advice,0.9939,True
+My maize has low nitrogen. Which fertilizer do you recommend?,fertilizer_advice,fertilizer_advice,0.9939,True
+How much urea should I use for rice per acre?,fertilizer_advice,fertilizer_advice,0.9908,True
+Which fertilizer is best for flowering plants?,fertilizer_advice,fertilizer_advice,0.9938,True
+What fertilizer helps plants grow faster?,fertilizer_advice,fertilizer_advice,0.9937,True
+My plants are not growing well. Should I add fertilizer?,fertilizer_advice,fertilizer_advice,0.9937,True
+What fertilizer do I use for a vegetable garden?,fertilizer_advice,fertilizer_advice,0.9938,True
+My crop leaves are pale yellow. Do I need nitrogen fertilizer?,fertilizer_advice,fertilizer_advice,0.9933,True
+What fertilizer is good for fruit trees?,fertilizer_advice,fertilizer_advice,0.9938,True
+Is DAP good for my wheat crop?,fertilizer_advice,fertilizer_advice,0.9922,True
+Should I use urea or DAP for rice?,fertilizer_advice,fertilizer_advice,0.9922,True
+How much fertilizer per acre for wheat?,fertilizer_advice,fertilizer_advice,0.9937,True
+Should I fertilize before or after rain?,fertilizer_advice,fertilizer_advice,0.9935,True
+What is urea and when should I use it?,fertilizer_advice,fertilizer_advice,0.9923,True
+My cotton crop is yellowing. Which fertilizer should I use?,fertilizer_advice,fertilizer_advice,0.9939,True
+How do I improve soil fertility before planting?,fertilizer_advice,fertilizer_advice,0.9913,True
+Fertilizer recommendation for sugarcane in loamy soil?,fertilizer_advice,fertilizer_advice,0.9935,True
+How many kg of DAP for cotton per acre?,fertilizer_advice,fertilizer_advice,0.9819,True
+What fertilizer for sugarcane to increase yield?,fertilizer_advice,fertilizer_advice,0.9938,True
+My soil has low potassium. What fertilizer should I add?,fertilizer_advice,fertilizer_advice,0.994,True
+What is the dose of urea for potato per acre?,fertilizer_advice,fertilizer_advice,0.9912,True
+Which fertilizer is safe to use without harming the soil?,fertilizer_advice,fertilizer_advice,0.9938,True
+My paddy crop looks thin. What fertilizer makes it stronger?,fertilizer_advice,fertilizer_advice,0.9937,True
+What is 17-17-17 fertilizer and when to use it?,fertilizer_advice,fertilizer_advice,0.9935,True
+How much MOP for rice crop?,fertilizer_advice,fertilizer_advice,0.898,True
+My rice leaves are turning yellow with brown spots!,crop_disease,crop_disease,0.9951,True
+Brown spots on my wheat leaves. How do I treat them?,crop_disease,crop_disease,0.9952,True
+My tomato plants have black lesions on the stem.,crop_disease,crop_disease,0.9953,True
+White powdery coating on my maize leaves. What is wrong?,crop_disease,crop_disease,0.9951,True
+My potato plants are wilting and roots look rotten.,crop_disease,crop_disease,0.9954,True
+Fungal infection spreading on my sugarcane.,crop_disease,crop_disease,0.995,True
+My mango leaves have spots and are falling off.,crop_disease,crop_disease,0.9952,True
+Cotton plants show mosaic pattern on leaves.,crop_disease,crop_disease,0.995,True
+Leaf blight is affecting my rice.,crop_disease,crop_disease,0.9953,True
+How do I control aphids on my cabbage?,crop_disease,crop_disease,0.991,True
+My wheat shows rust symptoms.,crop_disease,crop_disease,0.9952,True
+Insects eating my crop leaves. How to control?,crop_disease,crop_disease,0.9948,True
+My banana plants have black spots.,crop_disease,crop_disease,0.9953,True
+Something eating my crops at night. What pest?,crop_disease,crop_disease,0.995,True
+White insects on bottom of my leaves.,crop_disease,crop_disease,0.9952,True
+Small holes in leaves and crop is not growing.,crop_disease,crop_disease,0.995,True
+My rice has orange colored dust on leaves.,crop_disease,crop_disease,0.9953,True
+There is sticky substance on my fruit tree leaves.,crop_disease,crop_disease,0.9952,True
+Worms destroying my crop from roots.,crop_disease,crop_disease,0.995,True
+My tomato fruits have black rot.,crop_disease,crop_disease,0.9951,True
+My sugarcane is rotting at the base.,crop_disease,crop_disease,0.995,True
+White mold on my vegetables after rain.,crop_disease,crop_disease,0.9949,True
+My crop has leaf curl virus symptoms.,crop_disease,crop_disease,0.9952,True
+Fungus spreading on my wheat field.,crop_disease,crop_disease,0.9951,True
+My paddy has a bad smell and plants are dying.,crop_disease,crop_disease,0.9951,True
+Is it a good time to plant maize in current weather?,weather_planting,weather_planting,0.9947,True
+Temperature is 30°C and humidity is high. Can I sow rice?,weather_planting,weather_planting,0.9943,True
+When is the best planting season for wheat in dry climate?,weather_planting,weather_planting,0.9938,True
+Should I delay planting because of expected heavy rainfall?,weather_planting,weather_planting,0.9942,True
+Is frost risk high this season?,weather_planting,weather_planting,0.9946,True
+The rainy season has started. Which crops should I sow first?,weather_planting,weather_planting,0.9947,True
+Is there drought risk this season?,weather_planting,weather_planting,0.9944,True
+It has been very hot lately. Is it safe to plant?,weather_planting,weather_planting,0.9943,True
+It rained heavily yesterday. Should I wait before planting?,weather_planting,weather_planting,0.9944,True
+The weather has been cloudy and cold. Can I plant rice?,weather_planting,weather_planting,0.9945,True
+The monsoon is late. Should I change my planting schedule?,weather_planting,weather_planting,0.9944,True
+Is it too hot to plant right now?,weather_planting,weather_planting,0.9945,True
+My area has not received rain in weeks. Can I still plant?,weather_planting,weather_planting,0.9944,True
+The nights are getting cold. Will my seedlings survive?,weather_planting,weather_planting,0.9941,True
+We had too much rain this month. Is planting still possible?,weather_planting,weather_planting,0.9946,True
+Is this the right season to grow watermelon?,weather_planting,weather_planting,0.9946,True
+When is the best time to sow maize?,weather_planting,weather_planting,0.9945,True
+Is the humidity level good for planting paddy?,weather_planting,weather_planting,0.9944,True
+"After the dry season, when should I plant rice?",weather_planting,weather_planting,0.9944,True
+30°C and 75% humidity — can I grow maize?,weather_planting,crop_recommendation,0.9859,False
+Temperature 38°C and humidity 80%. Should I plant rice?,weather_planting,weather_planting,0.9708,True
+It is 12°C now. Should I plant rice?,weather_planting,weather_planting,0.9941,True
+Good weather today. Should I start planting?,weather_planting,weather_planting,0.9946,True
+What crops survive in a heatwave?,weather_planting,crop_recommendation,0.992,False
+Frost last night — should I protect my seedlings?,weather_planting,weather_planting,0.9931,True

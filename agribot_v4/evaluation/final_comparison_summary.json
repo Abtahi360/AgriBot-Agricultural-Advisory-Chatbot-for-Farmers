@@ -1,6 +1,6 @@
 {
   "project": "AgriBot v4 \u2014 Agricultural Advisory Chatbot",
-  "evaluation_date": "2026-05-03",
+  "evaluation_date": "2026-05-04",
   "task_1_recommendation": {
     "title": "Crop Recommendation \u2014 RF vs XGBoost",
     "winner": "RandomForest",
@@ -18,11 +18,132 @@
   },
   "task_2_nlp_intent": {
     "title": "NLP Intent Classification \u2014 DistilBERT vs BERT",
-    "winner": "Run train_bert_intent.py for comparison",
-    "test_set_accuracy_distilbert": 0.74,
-    "DistilBERT": {},
-    "BERT": {},
-    "slide_table": []
+    "winner": "BERT",
+    "test_set_accuracy_distilbert": 0.98,
+    "DistilBERT": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "confusion_matrix": [
+        [
+          23,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          23,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          22
+        ]
+      ],
+      "train_time_sec": 13.6,
+      "best_val_acc": 1.0,
+      "params": "66M",
+      "checkpoint": "distilbert-base-uncased",
+      "notes": "Existing production model \u2014 40% smaller than BERT"
+    },
+    "BERT": {
+      "accuracy": 1.0,
+      "precision_macro": 1.0,
+      "recall_macro": 1.0,
+      "f1_macro": 1.0,
+      "precision_weighted": 1.0,
+      "recall_weighted": 1.0,
+      "f1_weighted": 1.0,
+      "confusion_matrix": [
+        [
+          23,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          22,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          23,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          22
+        ]
+      ],
+      "train_time_sec": 26.1,
+      "best_val_acc": 1.0,
+      "params": "110M",
+      "checkpoint": "bert-base-uncased",
+      "notes": "Full BERT \u2014 higher accuracy, slower inference"
+    },
+    "slide_table": [
+      [
+        "Metric",
+        "DistilBERT",
+        "BERT (Full)",
+        "Winner"
+      ],
+      [
+        "Accuracy",
+        "1.0000",
+        "1.0000",
+        "DistilBERT"
+      ],
+      [
+        "Precision (macro)",
+        "1.0000",
+        "1.0000",
+        "\u2014"
+      ],
+      [
+        "Recall (macro)",
+        "1.0000",
+        "1.0000",
+        "\u2014"
+      ],
+      [
+        "F1-Score (macro)",
+        "1.0000",
+        "1.0000",
+        "DistilBERT"
+      ],
+      [
+        "Train Time (s)",
+        "13.6",
+        "26.1",
+        "DistilBERT (faster)"
+      ],
+      [
+        "Model Size",
+        "66M params",
+        "110M params",
+        "DistilBERT (smaller)"
+      ]
+    ]
   },
   "task_3_disease": {
     "title": "Disease Detection/Classification",
@@ -168,12 +289,12 @@
   },
   "live_test": {
     "total_queries": 100,
-    "overall_accuracy": 0.74,
+    "overall_accuracy": 0.98,
     "per_intent": {
-      "crop_recommendation": 0.72,
-      "fertilizer_advice": 0.88,
-      "crop_disease": 0.6,
-      "weather_planting": 0.76
+      "crop_recommendation": 1.0,
+      "fertilizer_advice": 1.0,
+      "crop_disease": 1.0,
+      "weather_planting": 0.92
     }
   },
   "new_components": [
